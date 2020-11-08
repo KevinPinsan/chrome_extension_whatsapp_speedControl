@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Whatsapp 2x",
+    "description": "Está extensão permite acelerar audios do whatsapp para em 2x.\n
+    This extension allows you to speed up WhatsApp audios to 2x.",
+    "icons": { "16": "icon16.png",
+       "128": "icon128.png" },
+    "version": "0.2",
+    "author": "Kevin Pinsan",
+    "content_scripts": [
+        {
+            "matches": ["https://web.whatsapp.com/"],
+            "css":["style.css"],
+            "js":["content.js"]
+        }
+        
+    ]
+
+}
